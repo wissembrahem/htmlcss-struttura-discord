@@ -1,0 +1,41 @@
+/*RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.header ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+.header li{
+    margin:0 10px;
+}
+/*COMMON*/
+/*Layout*/
+.header {
+    display:flex;
+    background-color: rgb(161, 161, 32);
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.hero {
+background-color: blue;
+padding: 40px 0px;
+}
+.contenitore{
+    background-color: bisque;
+    width: 50%;
+    margin: 0% auto;
+}
+.footer {
+    background-color: aquamarine;
+}
+.contenuto {
+    margin: 0 auto;
+   background-color: bisque;
+    width: 200px;
+}
