@@ -1,41 +1,130 @@
 /*RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box
 }
-.header ul{
+
+.header ul {
     list-style: none;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
-.header li{
-    margin:0 10px;
+
+.header li {
+    margin: 0 10px;
 }
+
 /*COMMON*/
 /*Layout*/
-.header {
-    display:flex;
-    background-color: rgb(161, 161, 32);
-    flex-direction: row;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-}
-.hero {
-background-color: blue;
-padding: 40px 0px;
-}
-.contenitore{
-    background-color: bisque;
-    width: 50%;
-    margin: 0% auto;
-}
-.footer {
-    background-color: aquamarine;
-}
-.contenuto {
+
+.container {
+    width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
-   background-color: bisque;
-    width: 200px;
+}
+
+.header {
+    display: flex;
+   align-items: center;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-logo,
+.header-actions {
+    width: 20%;
+}
+
+.header-actions {
+    text-align: right;
+}
+
+.col-60 {
+width: 60%;
+background-color: lightgreen;
+}
+
+.col-40 {
+width: 40%;
+lighting-color: lightcoral;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+header ul .flex {
+    gap: 20px;
+}
+/* MAIN */
+.hero-section {
+    padding: 40px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+main {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 30px;
+    background-color: gray;
+    font-size: 0.8rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+}
+
+.btn-large {
+    font-size: 1.2rem;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.hero-content {
+width: 70%;
+max-width: 700px;
+margin:  0 auto;
 }
